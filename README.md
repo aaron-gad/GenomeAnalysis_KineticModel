@@ -29,6 +29,7 @@ The main analysis is documented in the Jupyter notebook
   the sequencing-based data via pattern similarity.
 - **Comparison with imaging-based data** — correlating gene–cluster distance
   (from oligopaint microscopy) with the sequencing-based signals.
+- **Protein abundance** — Check abundance of proteins involved in loop extrusion and in condensates across development.
 
 ## Key packages
 
@@ -39,9 +40,10 @@ Beyond the standard pandas / numpy / matplotlib / scipy stack:
 | [`hicstraw`](https://github.com/aidenlab/straw) | Reading Hi-C contact matrices |
 | [`pyBigWig`](https://github.com/deeptools/pyBigWig) | Reading bigWig genome track files |
 | `scikit-image` (`skimage`) | Structural similarity metrics |
-| `scikit-learn` |regression models |
+| `scikit-learn` | Regression models |
 | `statsmodels` | OLS/WLS regression |
 | `seaborn` | Statistical plotting |
+| `openpyxl` | Reading and writing excel files |
 
 ## Data sources
 
@@ -69,3 +71,4 @@ Resources and public sequencing datasets used in this analysis:
 - **CpG islands**: Gardiner-Garden & Frommer, *Journal of Molecular Biology*
   196(2):261–282, 1987.
 - **Genome-build liftover**: Zhao et al., *Bioinformatics* 30(7):1006–1007, 2014.
+- **Proteomics data**: da Silva Pescador et al., *Cell Reports* 43(10):114769, 2024.
