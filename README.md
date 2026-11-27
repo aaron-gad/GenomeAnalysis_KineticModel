@@ -1,5 +1,5 @@
 # GenomeAnalysis_KineticModel
-Genome-wide analysis of sequence-based data and a kinetic model of gene activation, applied to zygotic genome activation.
+Genome-wide analysis of sequence-based data and a kinetic model of gene activation, applied to zygotic genes.
 
 Code for genome-wide bioinformatics analysis of sequencing-based data and a
 three-state kinetic model relating transcriptional cluster association to gene
